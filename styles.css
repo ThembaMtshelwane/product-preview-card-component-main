@@ -120,6 +120,12 @@ button {
   justify-content: center;
 }
 
+button:hover {
+  cursor: pointer;
+  background-color: rgb(31, 67, 55);
+  transform: scale(1.02);
+}
+
 .icon {
   height: 100%;
   width: 14px;
@@ -131,7 +137,7 @@ button {
   bottom: 0;
   font-size: 11px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
