@@ -52,8 +52,9 @@ main {
   margin: 20px auto;
 }
 
-img {
+.productImage {
   width: 100%;
+  max-height: 300px;
   border-radius: 15px 15px 0px 0px;
 }
 
@@ -126,9 +127,44 @@ button {
 }
 
 .attribution {
+  position: absolute;
+  bottom: 0;
   font-size: 11px;
   text-align: center;
+  margin-bottom: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 570px) {
+  main {
+    display: flex;
+    width: 90%;
+    max-width: 600px;
+    padding: 0px;
+  }
+  .imageContainer {
+    width: 100%;
+  }
+  .productImage {
+    height: 100%;
+    max-height: fit-content;
+    border-radius: 15px 0px 0px 15px;
+  }
+  .textSection {
+    padding: 20px;
+  }
+  .topSection,
+  .middleSection,
+  .bottomSection {
+    margin-bottom: 15px;
+  }
+  .itemDescription {
+    line-height: 1.8rem;
+  }
+  .itemType,
+  .prices {
+    margin-bottom: 25px;
+  }
 }
