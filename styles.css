@@ -1,2 +1,134 @@
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Primary */
+  --darkCyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+  --veryDarkBlue: hsl(212, 21%, 14%);
+  --darkGrayishBlue: hsl(228, 12%, 48%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  background-color: var(--cream);
+  font-size: 14px;
+  font-family: 'Montserrat', serif;
+  color: var(--darkGrayishBlue);
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fraunces-bold {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+}
+
+.montserrat-medium {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.montserrat-bold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+main {
+  background-color: var(--white);
+  width: 90%;
+  border-radius: 15px;
+  margin: 20px auto;
+}
+
+img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.textSection {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.topSection,
+.middleSection,
+.bottomSection {
+  padding: 5px;
+}
+
+.itemType {
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--veryDarkBlue);
+}
+
+.itemDescription {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.bottomSection {
+  margin-bottom: 15px;
+}
+
+.prices {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.currentPrice {
+  font-size: 1.9rem;
+  color: var(--darkCyan);
+  margin-right: 25px;
+}
+
+.previousPrice {
+  text-decoration: line-through;
+}
+
+button {
+  background-color: var(--darkCyan);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 50px;
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  height: 100%;
+  width: 14px;
+  margin-right: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

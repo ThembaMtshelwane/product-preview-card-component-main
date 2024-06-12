@@ -12,37 +12,41 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Product preview card component</title>
   </head>
   <body>
     <main>
-      <section class="imageContainer">
-        <img
-          class="productImage"
-          src="./images/image-product-mobile.jpg"
-          alt="perfume"
-        />
-      </section>
-      <section>
+      <!-- <section class="imageContainer"> -->
+      <img
+        class="productImage"
+        src="./images/image-product-mobile.jpg"
+        alt="perfume"
+      />
+      <!-- </section> -->
+      <section class="textSection">
         <section class="topSection">
-          <p class="itemType">Perfume</p>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
+          <p class="itemType montserrat-medium">PERFUME</p>
+          <h1 class="fraunces-bold">Gabrielle Essence Eau De Parfum</h1>
         </section>
         <section class="middleSection">
-          <p class="itemDescription">
+          <p class="itemDescription montserrat-medium">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
         </section>
         <section class="bottomSection">
           <section class="prices">
-            <p class="currentPrice">$149.99</p>
+            <p class="currentPrice fraunces-bold">$149.99</p>
             <p class="previousPrice">$169.99</p>
           </section>
           <button>
-            <img src="./images/icon-cart.svg" alt="cart icon" />
-            <p>Add to Cart</p>
+            <img class="icon" src="./images/icon-cart.svg" alt="cart icon" />
+            <p class="montserrat-bold">Add to Cart</p>
           </button>
         </section>
       </section>
