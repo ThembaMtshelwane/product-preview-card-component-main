@@ -2,11 +2,11 @@
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
-Welcome! 👋 [This is my attempt]() completing the Frontend Mentor challenge.
+Welcome! 👋 [This is my attempt](https://thembamtshelwane.github.io/product-preview-card-component-main/) completing the Frontend Mentor challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
-**This challenge requires a basic understanding of HTML and CSS.**
+**This challenge requires a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
 
